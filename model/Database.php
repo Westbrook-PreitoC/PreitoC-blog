@@ -1,4 +1,4 @@
-<?php
+    <?php
 
 class Database {
 
@@ -37,7 +37,7 @@ class Database {
     public function openconnection() {
         $this->connection = new mysqli($this->host, $this->username, $this->password, $this->database);
 
-        if ($connection->connect_error) {
+        if ($this->connection->connect_error) {
             die("<p>Error: " . $connection->connect_error . "</p>");
         }
     }
