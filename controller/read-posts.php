@@ -1,3 +1,6 @@
+<link type="text/css" rel="stylesheet" href="dist/css/bootstrap-theme.css">
+<link type="text/css" rel="stylesheet" href="dist/css/bootstrap.css">
+<link type="text/css" rel="stylesheet" href="controller/read-posts.css">
 <?php
 
     require_once(__DIR__ . "/../model/config.php");
@@ -8,9 +11,9 @@
     if($result) {
         while($row = mysqli_fetch_array($result)) {
             echo "<div class='post'>";
-            echo "<h2>" . $row['title'] . "</h2>";
+            echo "<h1>" . $row['title'] . "</h1>";
             echo "<br />";
-            echo"<p>" . $row['post'] . "</h1>";
+            echo"<h2>" . $row['post'] . "</h2>";
             echo "<br/>";
             echo "</div>";
         }
