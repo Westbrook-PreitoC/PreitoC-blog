@@ -1,0 +1,30 @@
+body{
+   background-image: url('http://www.seanhelvey.com/wp-content/uploads/2014/08/html5-css-javascript-logos.png')
+}
+
+
+div{
+    border-style: solid;
+    border-width: 10px;
+     padding:30px;
+}
+
+
+.container{
+    border-color: yellow;
+}
+
+
+.row{
+    border-color: teal;
+}
+
+
+.col-xs-10{
+    border-color: purple;
+}
+
+
+.col-xs-2{
+    border-color: purple;
+}

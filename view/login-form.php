@@ -1,3 +1,4 @@
+<!--//this part of code lets us link all the pages together-->
 <link type="text/css" rel="stylesheet" href="dist/css/bootstrap-theme.css">
 <link type="text/css" rel="stylesheet" href="dist/css/bootstrap.css">
 <link type="text/css" rel="stylesheet" href="style.css">
@@ -7,7 +8,7 @@
 <div class="container">
     <div class="jumbotron">
 
-        <h1>Hello This Is My Login Page</h1>
+        <h1> Login Page </h1>
         <ul class="nav nav-pills">
             <li role="presentation"><a href="index.php">Home</a></li>
             <li role="presentation" class="active"><a href="login.php">Login</a></li>
