@@ -6,26 +6,26 @@
 
 <div class="container">
     <div class="jumbotron">
-        <h1>Hello This is My Home Page</h1>
+        <h1>Hello This is My BLOG!!!!</h1>
 
-<div class="btn-group" role="group" aria-label="...">
-    <a class="btn btn-default" href="index.php">Home</a>
-    <a class="btn btn-default" href="login.php">Login</a>
-    <a class="btn btn-default" href="register.php">Register</a>
- 
+        <div class="btn-group" role="group" aria-label="...">
+            <a class="btn btn-default" href="index.php">Home</a>
+            <a class="btn btn-default" href="login.php">Login</a>
+            <a class="btn btn-default" href="register.php">Register</a>
 
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-      Portfolio 3
-      <span class="caret"></span>
-    </button>
-    <ul class="dropdown-menu" role="menu">
-        <li><a href="Portfolio3Cameron-master/public_html/index.html">About me</a></li>
-        <li><a href="Portfolio3Cameron-master/public_html/technology.html">Technology</a></li>
-        <li><a href="Portfolio3Cameron-master/public_html/project.html">Projects</a></li>
-    </ul>
-  </div>
-</div>
+
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    Portfolio 3
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="Portfolio3Cameron-master/public_html/index.html">About me</a></li>
+                    <li><a href="Portfolio3Cameron-master/public_html/technology.html">Technology</a></li>
+                    <li><a href="Portfolio3Cameron-master/public_html/project.html">Projects</a></li>
+                </ul>
+            </div>
+        </div>
 
     </div>
 </div>

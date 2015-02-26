@@ -1,4 +1,4 @@
-    <?php
+<?php
 
 class Database {
 
@@ -7,7 +7,7 @@ class Database {
     private $username;
     private $password;
     private $database;
-    public $error; 
+    public $error;
 
     public function __construct($host, $username, $password, $database) {
         $this->host = $host;
@@ -34,6 +34,7 @@ class Database {
         }
     }
 
+    //this part of code tells us that we have an open connection
     public function openconnection() {
         $this->connection = new mysqli($this->host, $this->username, $this->password, $this->database);
 
@@ -42,18 +43,20 @@ class Database {
         }
     }
 
+    //this part of code tells us that we have a closed connection
     public function closeconnection() {
         if (isset($this->connection)) {
             $this->connection->close();
         }
     }
 
+    //this part of code lets us know that the blogs connection works
     public function query($string) {
         $this->openconnection();
 
         $query = $this->connection->query($string);
-        
-        if(!$query) {
+
+        if (!$query) {
             $this->error = $this->connection->error;
         }
 
