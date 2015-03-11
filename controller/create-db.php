@@ -2,7 +2,7 @@
 
 require_once(__DIR__ . "/../model/config.php");
 
-//this code explains that i m creating TABLE posts
+//this code explains that query is creating TABLE posts
 $query = $_SESSION["connection"]->query("CREATE TABLE posts ("
         . "id int(11) NOT NULL AUTO_INCREMENT,"
         . "title varchar(255) NOT NULL,"
